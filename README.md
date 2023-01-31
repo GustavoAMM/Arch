@@ -30,7 +30,7 @@ Para cambiar la configuración del teclado a español.
 ```
 loadkeys es
 ```
-## Red
+## Tarjeta de red
 
 Por defecto no tendremos conexión a internet y para comprobar podemos usar el siguiente comando para verificar que no tendremos respuesta.
 
@@ -56,3 +56,8 @@ rfkill unblock wifi
 y podemos volver a a verificar el estatus de nuestros dispositivos inalámbricos para comprobar que estan desbloqueados.
 
 ![Red](RedU.png)
+
+## Red
+
+Para conectarnos a una red wifi vamos a utilizar **iwctl**
+
