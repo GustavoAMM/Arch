@@ -73,5 +73,12 @@ iwctl --passphrase CONTRASEÑA_RED station wlan0 connect NOMBRE_RED
 ```
 
 > En dado caso que nuestro nombre de red tenga caracteres especiales como por ejemplo: guiones, signos, etc.
+>
 > El nombre debe de ir entre comillas: "NOMBRE_RED"
 
+Para verificar que ya contamos con internet mandamos un ping y esta vez tendremos respuesta.
+
+```
+ping 8.8.8.8
+```
+![Ping](Ping.png)
