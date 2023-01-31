@@ -38,6 +38,8 @@ Por defecto no tendremos conexión a internet y para comprobar podemos usar el s
 ping 8.8.8.8
 ```
 
+![PingNO](PingNo.png)
+
 Muchas computadoras portátiles tienen un botón (o interruptor) de hardware para apagar la tarjeta inalámbrica; sin embargo, el kernel también puede bloquear la tarjeta. 
 
 Para ver el estatus de nuestros dispositivos inalámbricos podemos usar el siguiente comando:
