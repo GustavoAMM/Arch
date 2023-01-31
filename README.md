@@ -45,7 +45,7 @@ Para ver el estatus de nuestros dispositivos inalámbricos podemos usar el sigui
 ```
 rfkill
 ```
- ![Red](Red.png)
+ ![Red](RedBlo.png)
 
 Podemos ver que nuestra tarjeta wifi esta bloqueada y para desbloquear usamos el siguiente comando:
 
@@ -82,3 +82,12 @@ Para verificar que ya contamos con internet mandamos un ping y esta vez tendremo
 ping 8.8.8.8
 ```
 ![Ping](Ping.png)
+
+## Instalación 
+
+Para instalar fácilmente Arch Linux podemos usar el instalador que tiene incluida la iso.
+Usamo el siguiente comando:
+
+```
+archinstall
+```
