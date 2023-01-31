@@ -23,5 +23,12 @@ Lo siguiente es quemar la iso en una USB minimo de 8G.
 - Antes de encender completamente, presionar F12 para abrir el Windows Boot Manager.
 - Seleccionar la USB.
 
+## Teclas
+
+- Para cambiar la configuración del teclado a español.
+
+```
+loadkeys es
+```
 
 
