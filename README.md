@@ -47,6 +47,6 @@ Para ver el estatus de nuestros dispositivos inalámbricos podemos usar el sigui
 ```
 rfkill
 ```
- [Red](Red.png)
+ ![Red](Red.png)
 
 
