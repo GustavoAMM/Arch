@@ -32,13 +32,11 @@ loadkeys es
 ```
 ## Red
 
-Por defecto no tendremos conexión a internet y para comprobar podemos usar el siguiente comando.
+Por defecto no tendremos conexión a internet y para comprobar podemos usar el siguiente comando para verificar que no tendremos respuesta.
 
 ```
 ping 8.8.8.8
 ```
-
-y no tendremos respuesta.
 
 Muchas computadoras portátiles tienen un botón (o interruptor) de hardware para apagar la tarjeta inalámbrica; sin embargo, el kernel también puede bloquear la tarjeta. 
 
