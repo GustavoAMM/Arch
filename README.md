@@ -69,9 +69,9 @@ Debemos conocer dos cosas para conectarnos a internet:
 Para conectarnos usamos el siguiente comando:
 
 ```
-iwctl --passphrase **CONTRASEÑA_RED** station wlan0 connect **NOMBRE_RED**
+iwctl --passphrase CONTRASEÑA_RED station wlan0 connect NOMBRE_RED
 ```
 
-> En dado caso que nuestro el nombre de nuestra red tenga caracteres especiales como por ejemplo: guione, signos, etc.
-> Es mejor poner el nombre entre comillas: "NOMBRE_RED"
+> En dado caso que nuestro nombre de red tenga caracteres especiales como por ejemplo: guiones, signos, etc.
+> El nombre debe de ir entre comillas: "NOMBRE_RED"
 
