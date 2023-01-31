@@ -25,10 +25,27 @@ Lo siguiente es quemar la iso en una USB minimo de 8G.
 
 ## Teclas
 
-- Para cambiar la configuración del teclado a español.
+Para cambiar la configuración del teclado a español.
 
 ```
 loadkeys es
+```
+## Red
+
+Por defecto no tendremos conexión a internet y para comprobar podemos usar el siguiente comando.
+
+```
+ping 8.8.8.8
+```
+
+y no tendremos respuesta.
+
+Muchas computadoras portátiles tienen un botón (o interruptor) de hardware para apagar la tarjeta inalámbrica; sin embargo, el kernel también puede bloquear la tarjeta. 
+
+Para ver el estatus de nuestros dispositivos inalámbricos podemos usar el siguiente comando.
+
+```
+rfkill
 ```
 
 
