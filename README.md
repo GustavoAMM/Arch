@@ -4,7 +4,9 @@
 
 Tener dos particiones ya hechas:
 - 500 MB -> Para la partición de /boot
-- 50 GB -> Para el resto
+- 50 GB -> Para el Sistema operativo
+
+![Windows](Win.jpg)
 
 ## USB booteable
 
