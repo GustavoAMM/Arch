@@ -27,7 +27,7 @@ Lo siguiente es quemar la iso en una USB minimo de 8G.
 ## Iniciar USB 
 
 - Reiniciar la computadora con la USB conectada.
-- Antes de encender completamente, presionar F12 para abrir el Windows Boot Manager.
+- Antes de encender completamente, abrir el Windows Boot Manager. (Presionar F12)
 - Seleccionar la USB.
 
 ![Boot](Boot.png)
