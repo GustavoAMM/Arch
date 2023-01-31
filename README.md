@@ -59,5 +59,19 @@ y podemos volver a a verificar el estatus de nuestros dispositivos inalámbricos
 
 ## Red
 
-Para conectarnos a una red wifi vamos a utilizar **iwctl**
+Para conectarnos a una red wifi vamos a utilizar una herramienta llamada **iwctl**
+
+Debemos conocer dos cosas para conectarnos a internet:
+
+- EL SSID (Nombre de nuestra de red)
+- El password de la red
+
+Para conectarnos usamos el siguiente comando:
+
+```
+iwctl --passphrase **CONTRASEÑA_RED** station wlan0 connect **NOMBRE_RED**
+```
+
+> En dado caso que nuestro el nombre de nuestra red tenga caracteres especiales como por ejemplo: guione, signos, etc.
+> Es mejor poner el nombre entre comillas: "NOMBRE_RED"
 
