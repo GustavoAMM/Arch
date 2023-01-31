@@ -40,11 +40,19 @@ ping 8.8.8.8
 
 Muchas computadoras portátiles tienen un botón (o interruptor) de hardware para apagar la tarjeta inalámbrica; sin embargo, el kernel también puede bloquear la tarjeta. 
 
-Para ver el estatus de nuestros dispositivos inalámbricos podemos usar el siguiente comando.
+Para ver el estatus de nuestros dispositivos inalámbricos podemos usar el siguiente comando:
 
 ```
 rfkill
 ```
  ![Red](Red.png)
 
+Podemos ver que nuestra tarjeta wifi esta bloqueada y para desbloquear usamos el siguiente comando:
 
+```
+rfkill unblock wifi
+```
+
+y podemos volver a a verificar el estatus de nuestros dispositivos inalámbricos para comprobar que estan desbloqueados.
+
+![Red](RedU.png)
