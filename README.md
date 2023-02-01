@@ -32,6 +32,13 @@ Lo siguiente es quemar la iso en una USB minimo de 8G.
 
 ![Boot](Boot.png)
 
+- Inicar la iso de archlinux
+
+![Iso](Iso.jpg)
+
+- Esperar a la carga completa de la iso
+
+![Root](Root.png)
 ## Teclas
 
 Para cambiar la configuración del teclado a español.
