@@ -161,4 +161,4 @@ Se va a ir dando enter en cada opción y se irá personalizando según los sigui
 
 > Seleccionar la partición manual (seleccionar que hacer con cada unidad individual)
 
-![Diseño](Arch_img/Unidad.png)
+![Diseño](Arch_img/unidad.png)
