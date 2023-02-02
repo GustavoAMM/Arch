@@ -20,7 +20,7 @@ Lo siguiente es quemar la iso en una USB minimo de 8G.
 
 - Abrir Rufus
 - Seleccionar la iso y la USB.
-- Aceptar TODO.
+- Dar click en EMPEZAR
 
 ![Rufus](Rufus.jpg)
 
@@ -93,6 +93,8 @@ iwctl --passphrase CONTRASEÑA_RED station wlan0 connect NOMBRE_RED
 > En dado caso que nuestro nombre de red tenga caracteres especiales como por ejemplo: guiones, signos, etc.
 >
 > El nombre debe de ir entre comillas: "NOMBRE_RED"
+>
+> En dado caso que nuestra red no tenga contraseña puedes poner "" donde va la contraseña
 
 Para verificar que ya contamos con internet mandamos un ping y esta vez tendremos respuesta.
 
@@ -117,7 +119,7 @@ Se descarga e inicializa el instalador.
 
 ## Proceso de instalación
 
-Se va a ir dando enter en cada opción y se ira personalizando segun los diguientes pasos:
+Se va a ir dando enter en cada opción y se irá personalizando según los diguientes pasos:
 
 - Idioma de Archinstall
 
@@ -127,7 +129,7 @@ Se va a ir dando enter en cada opción y se ira personalizando segun los diguien
 
 - Distribución del teclado
 
-> Seleccionar la distribución de tu teclado
+> Seleccionar la distribución de tu teclado, en este caso latinoaméricano
 
 ![Teclado](Arch_img/Teclado.png)
 
@@ -139,13 +141,13 @@ Se va a ir dando enter en cada opción y se ira personalizando segun los diguien
 
 - Idioma local
 
-> Seleccionar tu idioma local
+> Seleccionar el idioma local para tu sistema operativo
 
 ![Idioma](Arch_img/Idioma.png)
 
 - Codificación local
 
-> Seleccionar codificación local
+> Seleccionar codificación local de los caracteres
 
 ![Codificación_local](Arch_img/Codificacion.png)
 
