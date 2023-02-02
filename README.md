@@ -105,7 +105,7 @@ ping 8.8.8.8
 
 Para instalar fácilmente Arch Linux podemos usar el instalador que tiene incluida la iso.
 
-Usamo el siguiente comando:
+Usamos el siguiente comando:
 
 ```
 archinstall
@@ -116,6 +116,8 @@ Se descarga e inicializa el instalador.
 ![Archinstalll](Arch_img/Archinstall.png)
 
 ## Proceso de instalación
+
+Se va a ir dando enter en cada opción y se ira personalizando segun los diguientes pasos:
 
 - Idioma de Archinstall
 
