@@ -111,3 +111,50 @@ Usamo el siguiente comando:
 archinstall
 ```
 
+Se descarga e inicializa el instalador.
+
+![Archinstalll](Arch_img/Archinstall.png)
+
+## Proceso de instalación
+
+- Idioma de Archinstall
+
+> Poner el idioma del instalador en español
+
+![idioma](Arch_img/Lenguage.png)
+
+- Distribución del teclado
+
+> Seleccionar la distribución de tu teclado
+
+![Teclado](Arch_img/Teclado.png)
+
+- Región del servidor
+
+> Seleccionar el servidor donde se van a descargar los paquetes
+
+![Servidor](Arch_img/Paquetes.png)
+
+- Idioma local
+
+> Seleccionar tu idioma local
+
+![Idioma](Arch_img/Idioma.png)
+
+- Codificación local
+
+> Seleccionar codificación local
+
+![Codificación_local](Arch_img/Codificacion.png)
+
+- Discos
+
+> Seleccionar tu disco principal donde se va a instalar el SO
+
+![Discos](Arch_img/Disco.png)
+
+- Diseño del disco
+
+> Seleccionar la partición manual (seleccionar que hacer con cada unidad individual)
+
+![Diseño](Arch_img/Nueva.png)
