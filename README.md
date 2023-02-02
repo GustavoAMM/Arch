@@ -119,7 +119,7 @@ Se descarga e inicializa el instalador.
 
 ## Proceso de instalación
 
-Se va a ir dando enter en cada opción y se irá personalizando según los diguientes pasos:
+Se va a ir dando enter en cada opción y se irá personalizando según los siguientes pasos:
 
 - Idioma de Archinstall
 
@@ -161,4 +161,4 @@ Se va a ir dando enter en cada opción y se irá personalizando según los digui
 
 > Seleccionar la partición manual (seleccionar que hacer con cada unidad individual)
 
-![Diseño](Arch_img/Nueva.png)
+![Diseño](Arch_img/Unidad.png)
