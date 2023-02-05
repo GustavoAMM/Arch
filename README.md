@@ -162,3 +162,48 @@ Se va a ir dando enter en cada opción y se irá personalizando según los sigui
 > Seleccionar la partición manual (seleccionar que hacer con cada unidad individual)
 
 ![Diseño](Arch_img/unidad.png)
+
+## Particiones individuales
+
+> Tener CUIDADO con los siguientes pasos, puedes borrar windows
+
+Identificar tus dos particiones:
+
+- la partición de 500MB
+- la partición de 50G
+
+Formatear las dos particiones para que el apartado de wipe cambie a true
+
+La primera partición (500MB) es la boot donde esta el kernel del sistema operativo con archivos para el arranque.
+
+- Sistema de archivos
+
+![Fat32](Arch_img/fat32.png)
+
+La segunda partición (50G) es la raiz donde esta el sistema operativo
+
+![ext4](Arch_img/ext4.png)
+
+La tabla de particiones queda asi:
+
+![Tabla](Arch_img/tabla.png)
+
+- Puntos de montaje
+
+Ahora vamos a montar las particiones que acabamos de hacer.
+
+![Montaje](Arch_img/0.png)
+
+Vamos a seleccionar cada una y montar de manera individual
+
+La primera de boot vamos a montar en /boot
+
+![Boot](Arch_img/boot.png)
+
+La seguna de raiz vamos a montar en /
+
+![Raiz](Arch_img/raiz.png)
+
+La tabla final de las particiones queda asi, mas las particiones de windows.
+
+![FInal](Arch_img/TablaFinal.png)
